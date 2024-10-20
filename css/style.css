@@ -1,6 +1,23 @@
 /* Reset */
-*{
+/* *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+} */
+ /* body margin dx & sx */
+ .space{
+    margin-left: 0px;
+    margin-right: 0px;
+ }
+/* logo */
+.logo{
+    width: 35px;
+    padding-left: 15px;
+    display: inline;
+    background-color: white;
+}
+.central{
+    margin-top: 3px;
+    margin-left: 0%;
+    background-color: rgb(194, 194, 194);
 }
