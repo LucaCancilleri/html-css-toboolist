@@ -4,20 +4,52 @@
     padding: 0%;
     box-sizing: border-box;
 } */
- /* body margin dx & sx */
+ /* body background color */
  .space{
     margin-left: 0px;
     margin-right: 0px;
+    margin-top: 0%;
+    background-color: rgb(194, 194, 194);
  }
 /* logo */
-.logo{
-    width: 35px;
+#logo{
+    width: 100%;
     padding-left: 15px;
-    display: inline;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-right: 100%;
     background-color: white;
 }
+/* posizione blocco_1 */
 .central{
-    margin-top: 3px;
-    margin-left: 0%;
-    background-color: rgb(194, 194, 194);
+    margin-top: 40px;
+    margin-left: 280px;
+    margin-right: 0%;
+    margin-bottom: 0%;
+}
+/* blocco 1 dimensioni*/
+.block_1{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 300px;
+    padding-bottom: 20px;
+    border-top: 40px;
+    border-radius: 5px 5px 0px 0px;
+    background-color: white;
+}
+.button_1{
+    height: 25px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: rgb(0, 162, 255);
+}
+.button_2{
+    height: 25px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 5px;
+    border: 1px solid rgb(197, 195, 195);
+    background-color: white;   
 }
