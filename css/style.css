@@ -5,7 +5,7 @@
     box-sizing: border-box;
 } */
  /* body background color */
- .space{
+ .body{
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 0%;
@@ -23,9 +23,8 @@
 /* posizione blocco_1 */
 .central{
     margin-top: 40px;
-    margin-left: 280px;
-    margin-right: 0%;
-    margin-bottom: 0%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 /* blocco 1 dimensioni*/
 .block_1{
@@ -36,6 +35,8 @@
     border-top: 40px;
     border-radius: 5px 5px 0px 0px;
     background-color: white;
+    margin-bottom: 0%;
+    border-bottom: 0%;
 }
 .button_1{
     height: 25px;
@@ -52,4 +53,14 @@
     border-radius: 5px;
     border: 1px solid rgb(197, 195, 195);
     background-color: white;   
+}
+/* blocco 2 */
+.block_2{
+    margin-top: 1px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 300px;
+    padding-bottom: 20px;
+    border-radius: 0px 0px 5px 5px;
+    background-color: white;
 }
