@@ -9,7 +9,7 @@
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 0%;
-    background-color: rgb(194, 194, 194);
+    background-color: rgb(239, 239, 239);
  }
 /* logo */
 #logo{
@@ -28,10 +28,10 @@
 }
 /* blocco 1 dimensioni*/
 .block_1{
-    padding-top: 20px;
-    padding-left: 20px;
+    padding-top: 10px;
+    padding-left: 40px;
     padding-right: 300px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     border-top: 40px;
     border-radius: 5px 5px 0px 0px;
     background-color: white;
@@ -57,10 +57,40 @@
 /* blocco 2 */
 .block_2{
     margin-top: 1px;
-    padding-top: 15px;
-    padding-left: 20px;
+    padding-top: 25px;
+    padding-left: 40px;
     padding-right: 300px;
     padding-bottom: 20px;
     border-radius: 0px 0px 5px 5px;
     background-color: white;
+}
+/* elementi blocco centrale */
+.title{
+    font-weight: bold;
+    font-size: 17px;
+}
+/* spunta */
+.tick{
+    font-size: 8px;
+    margin-right: 5px;
+    border: 1px solid green;
+    border-radius: 50%;
+    color: green;
+    padding-right: 1.5px;
+    padding-left: 1.5px;
+}
+/* testo sotto il titolo */
+.under{
+    font-size: 15px;
+}
+/* ultima parola evidenziata */
+.last{
+    border-radius: 7px;
+    border: 2px;
+    padding: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 8px;
+    color: white;
+    background-color: rgb(74, 182, 249);
 }
