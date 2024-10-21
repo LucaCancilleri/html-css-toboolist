@@ -57,7 +57,7 @@
 /* blocco 2 */
 .block_2{
     margin-top: 1px;
-    padding-top: 25px;
+    padding-top: 6px;
     padding-left: 40px;
     padding-right: 300px;
     padding-bottom: 20px;
@@ -68,6 +68,11 @@
 .title{
     font-weight: bold;
     font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 3px;
+}
+.elenco{
+    margin-top: 13px;
 }
 /* spunta */
 .tick{
@@ -76,6 +81,16 @@
     border: 1px solid green;
     border-radius: 50%;
     color: green;
+    padding-right: 1.5px;
+    padding-left: 1.5px;
+}
+/* croce */
+.cross{
+    font-size: 8px;
+    margin-right: 5px;
+    border: 1px solid rgb(215, 0, 0);
+    border-radius: 50%;
+    color: rgb(206, 0, 0);
     padding-right: 1.5px;
     padding-left: 1.5px;
 }
@@ -93,4 +108,54 @@
     font-size: 8px;
     color: white;
     background-color: rgb(74, 182, 249);
+}
+.last_viola{
+    border-radius: 7px;
+    border: 2px;
+    padding: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 8px;
+    color: white;
+    background-color: rgb(184, 56, 189);
+}
+.last_verde{
+    border-radius: 7px;
+    border: 2px;
+    padding: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 8px;
+    color: white;
+    background-color: rgb(92, 185, 149);
+}
+.last_arancio{
+    border-radius: 7px;
+    border: 2px;
+    padding: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 8px;
+    color: white;
+    background-color: rgb(248, 176, 33);
+}
+.last_violat{
+    border-radius: 7px;
+    border: 2px;
+    padding: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 8px;
+    color: white;
+    background-color: rgb(240, 83, 154);
+}
+.last_verdet{
+    border-radius: 7px;
+    border: 2px;
+    padding: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 8px;
+    color: white;
+    background-color: rgb(141, 195, 75);
 }
